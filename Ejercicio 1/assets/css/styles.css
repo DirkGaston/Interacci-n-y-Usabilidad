@@ -1,0 +1,37 @@
+.navbar{
+    width: 80%;
+    border: 1px solid black;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    padding: 1rem 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar img{
+    cursor: pointer;
+    width: 2.5rem;
+    padding-left: 3rem;
+}
+
+.navbar__Menu{
+    display: flex;
+    margin-right: 2rem;
+}
+
+.navbar__Menu--item{
+    list-style: none;
+    margin-right: 4rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    display: flex;
+}
+
+.navbar__Menu--item a{
+    text-decoration: none;
+    color: black;
+}
