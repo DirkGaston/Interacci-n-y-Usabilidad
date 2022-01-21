@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to right, #7794E0, #CC5B86);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.button{
+    background-color: #3D4751;
+    width: 60%;
+    height: 25%;
+    color: #E5EBEE;
+    font-size: 3rem;
+    font-weight: 600;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.4s ease-in;
+}
+
+.button:hover{
+    border: 2px solid white;
+    box-shadow: black 5px 5px 5px 5px;
+    opacity: 25%;
+}
