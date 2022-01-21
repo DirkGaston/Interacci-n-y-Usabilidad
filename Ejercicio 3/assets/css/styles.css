@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+.container1{
+    background-color: #7AC0E4;
+    width: 100vw;
+    height: 70vh;
+}
+
+.container2{
+    background-color: #F1EDDC;
+    width: 100vw;
+    height: 30vh;
+}
+
+.sun{
+    width: 13rem;
+    position: relative;
+    left: 7rem;
+    top: 1rem;
+    animation: transitionIn 2s;
+}
+
+.title{
+    font-size: 5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7rem;
+    margin-bottom: 0;
+    animation: transitionIn 10s;
+}
+
+.text{
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7rem;
+    font-weight: 200;
+    animation: transitionIn 10s;
+}
+
+.palm-tree{
+    width: 17rem;
+    position: relative;
+    left: 40rem;
+    top: 3rem;
+}
+
+.trunk{
+    animation: transitionIn 10s ;
+}
+
+.coconut{
+    animation: transitionIn 15s ;
+}
+
+.leaf{
+    animation: transitionIn 20s ;
+}
+
+.umbrella{
+    width: 7rem;
+    position: relative;
+    right: 5rem;
+    animation: moveInfromLeft 3s;
+}
+
+.beachBall{
+    width: 5rem;
+    position: relative;
+    left: 50rem;
+    top: 10rem;
+    animation: moveInfromRight 3s;
+}
+
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moveInfromRight {
+    0% {
+        transform: translateX(500px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes moveInfromLeft {
+    0% {
+        transform: translateX(-500px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
